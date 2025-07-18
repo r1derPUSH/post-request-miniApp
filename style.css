@@ -1,0 +1,52 @@
+body {
+    background-color: hsl(228, 91%, 57%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 250px;
+}
+
+div {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+div > input {
+    width: 250px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 1.3rem;
+    height: 50px;
+    margin-top: 12px;
+}
+
+div > textarea {
+    width: 300px;
+    height: 70px;
+    outline: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+div > button {
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(147, 100%, 37%);
+    height: 50px;
+    margin-top: 12px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+div > button:hover {
+    background-color: hsl(147, 100%, 27%);
+}
